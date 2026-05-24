@@ -30,6 +30,22 @@ npm run dev
 - `lib/` – mock data, product catalog, and calculation utilities
 - `styles/` – global styling
 
+## Deployment
+
+To deploy the project, you can use Vercel (recommended) or any other Node.js hosting service.
+
+### Deploying to Vercel
+
+1. Push your code to a GitHub repository.
+2. Import the project in Vercel.
+3. Set the build command to `npm run build` and the output directory to `.next`.
+4. Add environment variables (if any) from your `.env` file.
+5. Deploy.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
 ## Notes
 
 This scaffold is built as an end-to-end prototype. It is ready for:
